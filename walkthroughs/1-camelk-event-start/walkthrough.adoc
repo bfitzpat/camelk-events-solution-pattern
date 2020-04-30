@@ -1,4 +1,4 @@
-= Create and Deploy Your First Apache Camel K Integration
+= Deploy a Camel K integration service that handles events
 
 [type=walkthroughResource,serviceName=openshift]
 .Red Hat OpenShift
@@ -6,31 +6,19 @@
 * link:{openshift-host}/console[Console, window="_blank"]
 * link:https://help.openshift.com/[Openshift Online Help Center, window="_blank"]
 * link:https://blog.openshift.com/[Openshift Blog, window="_blank"]
+* link:https://github.com/bfitzpat/camelk-events-solution-pattern/wiki/Install-VS-Code[Installing VS Code, window="_blank"]
 ****
 
 [time=10]
-== Creating Your First Apache Camel K Integration
-
-=== Setting up Apache Camel K in OpenShift
-
-. Do first step.
-. Do second step.
-
-[type=verification]
-====
-Did it work?
-====
-
-[type=verificationFail]
-Try the steps again. If it's still not working contact your administrator.
+== Creating a Camel K Event Streaming project
 
 === Open Your Local VS Code Instance and Work Through the `Starting a new Camel K Route` tutorial
 
-. Open VS Code
-. Install the link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-didact[Didact extension by Red Hat]
-. Install the link:https://marketplace.visualstudio.com/items?itemName=redhat.apache-camel-extension-pack[Extension Pack for Apache Camel by Red Hat]
+. Open VS CodeEvent Streaming Example
 . Find the `Didact Tutorials` view, navigate to `Apache Camel K -> Starting a new Camel K Route (Solution Pattern)`. Swipe right and click the Start Didact Tutorial button.
 . Work through the `Starting a new Camel K Route` tutorial and return to Solution Explorer when you are done.
+. Next we will verify that the data you are sending to your queues appears in the console...
+. *TBD*
 
 [type=verification]
 ====
